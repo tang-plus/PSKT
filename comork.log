@@ -1,0 +1,149 @@
+Martrix file name: /home/tangjiahao/graph_challenge/data/com-orkut.ungraph.tsv 
+Martrix file size: 4008284008 
+一、 Read file time equals: 2.095923s
+程序已进行: 2.095966s
+   Edge num equals  117185083 and Node num equals 3072626 
+   max Suit Kcore equals  3072625 
+   calc_ktry_core_graph : K_try: 30  nodeNum: 3072626
+   calc_ktry_core_graph : node_delete: 1320963  nodeNum: 3072626
+   k_try = 30 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.746939s
+   subgraph Edge = 193924930 and Node = 1751663 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 100  nodeNum: 1751663
+   calc_ktry_core_graph : node_delete: 1647752  nodeNum: 1751663
+   k_try = 100 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.375190s
+   subgraph Edge = 33984656 and Node = 103911 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 170  nodeNum: 103911
+   calc_ktry_core_graph : node_delete: 59396  nodeNum: 103911
+   k_try = 170 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.081651s
+   subgraph Edge = 19225170 and Node = 44515 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 240  nodeNum: 44515
+   calc_ktry_core_graph : node_delete: 23045  nodeNum: 44515
+   k_try = 240 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.042967s
+   subgraph Edge = 9735488 and Node = 21470 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 310  nodeNum: 21470
+   calc_ktry_core_graph : node_delete: 21470  nodeNum: 21470
+   k_try = 310 ,now k_try >= max. 
+   备份half-kcore =120 小图
+   存在偏小图备份，直接使用备份k=100
+   calc_ktry_core_graph : K_try: 120  nodeNum: 103911
+   calc_ktry_core_graph : node_delete: 26398  nodeNum: 103911
+   开始边数筛选
+   data reduce time = : 0.081295s
+   subgraph Edge = 28406308 and Node = 77513 
+   ******************************************************
+   max k_try = 240 ,now k_try < maxSuitKcore. subgraph edge = 9735488 nodeNum = 21470. 
+二、 k-core 子图缩减结束，时间 = : 2.517030s
+程序已进行: 4.612997s
+   k: 240  node_delete: 0  nodeNum: 21470  nodeleft: 21470
+   k: 240  node_delete: 0  nodeNum: 21470  nodeleft: 21470
+   k: 241  node_delete: 327  nodeNum: 21470  nodeleft: 21143
+   k: 242  node_delete: 695  nodeNum: 21470  nodeleft: 20775
+   k: 243  node_delete: 1047  nodeNum: 21470  nodeleft: 20423
+   k: 244  node_delete: 1377  nodeNum: 21470  nodeleft: 20093
+   k: 245  node_delete: 1731  nodeNum: 21470  nodeleft: 19739
+   k: 246  node_delete: 1901  nodeNum: 21470  nodeleft: 19569
+   k: 247  node_delete: 2169  nodeNum: 21470  nodeleft: 19301
+   k: 248  node_delete: 2639  nodeNum: 21470  nodeleft: 18831
+   k: 249  node_delete: 2950  nodeNum: 21470  nodeleft: 18520
+   k: 250  node_delete: 3505  nodeNum: 21470  nodeleft: 17965
+   k: 251  node_delete: 3879  nodeNum: 21470  nodeleft: 17591
+   k: 252  node_delete: 4756  nodeNum: 21470  nodeleft: 16714
+   k: 253  node_delete: 5764  nodeNum: 21470  nodeleft: 15706
+   finish over kmax k: 254  node_delete: 21470  nodeNum: 21470 nodeleft: 0
+   开始边数筛选
+   data reduce time = : 0.022473s
+   subgraph Edge = 6889284 and Node = 15706 
+   ******************************************************
+三、 计算k-core 结束，时间 = : 0.274431s
+程序已进行: 4.887429s
+k_core_max equals 253 nodeNum_sub = 15706  numEdges_sub = 6889284 
+   kcore 上的ktruss区间为 [3, 254]. 
+   ■■■■
+   检查数 128 完成，剩余边数为 0
+   ■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 65 完成，剩余边数为 10
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 34 完成，剩余边数为 1708260
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 49 完成，剩余边数为 384602
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 57 完成，剩余边数为 139022
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 61 完成，剩余边数为 53240
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 63 完成，剩余边数为 0
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 62 完成，剩余边数为 0
+四、 计算k-core上的ktruss下界 结束，时间 = : 4.345995s
+程序已进行: 9.233427s
+kmaxcore上的kmaxtruss为 61, 剩余的边数为 26620. 
+   calc_ktry_core_graph : K_try: 60  nodeNum: 3072626
+   calc_ktry_core_graph : node_delete: 2602816  nodeNum: 3072626
+   开始边数筛选
+   data reduce time = : 0.655514s
+   subgraph Edge = 85441378 and Node = 469810 
+   ******************************************************
+五、 从大图获取kmax-1-core子图 结束，时间 = : 1.284698s
+程序已进行: 10.518126s
+   k_core-1 equals 60 nodeNum_final = 469810  numEdges_final = 85441378 
+   k-1-core上的ktruss区间为 [61, 254]. 
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 61 完成，剩余边数为 145532
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 62 完成，剩余边数为 88532
+   ■■■■■■■■■■■■■■■■■■■■■
+   检查数 63 完成，剩余边数为 83570
+   ■■■■■■■■■■■■
+   检查数 64 完成，剩余边数为 77642
+   ■■■■■■■■■■■■■■■
+   检查数 65 完成，剩余边数为 66032
+   ■■■■■■■■■■■■■■
+   检查数 66 完成，剩余边数为 62194
+   ■■■■■■■■■■■■■■■
+   检查数 67 完成，剩余边数为 58802
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 68 完成，剩余边数为 40844
+   ■■■■■■■■■■■
+   检查数 69 完成，剩余边数为 38168
+   ■■■■■■■■■
+   检查数 70 完成，剩余边数为 37262
+   ■■■■■■■■
+   检查数 71 完成，剩余边数为 36516
+   ■■■■■■■■■■■■■■■
+   检查数 72 完成，剩余边数为 34450
+   ■■■■■■■■■■■■■■■
+   检查数 73 完成，剩余边数为 32384
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 74 完成，剩余边数为 17574
+   ■■■■■■■■■■■
+   检查数 75 完成，剩余边数为 16216
+   ■■■■■■
+   检查数 76 完成，剩余边数为 16182
+   ■■■■■■■■
+   检查数 77 完成，剩余边数为 14886
+   ■■■■■■■■■■■
+   检查数 78 完成，剩余边数为 13718
+   ■■■■■■■■■■■■■■■■■■
+   检查数 79 完成，剩余边数为 0
+六、 计算k-1-core上的ktruss结束，时间 =: 13.982092s
+程序已进行: 24.500225s
+   kmax-1-core上的kmaxtruss为 78, 剩余的边数为 6859. 
+kmax = 78, Edges in kmax-truss = 6859.
+七、 计算时间 = [: 22.593444s
+八、 总时间 = : 24.689415s

@@ -1,0 +1,139 @@
+Martrix file name: /home/tangjiahao/graph_challenge/data/graph500-scale20-ef16_adj.tsv 
+Martrix file size: 486144056 
+一、 Read file time equals: 41.619576s
+程序已进行: 41.619608s
+   Edge num equals  15680861 and Node num equals 645820 
+   max Suit Kcore equals  645819 
+   calc_ktry_core_graph : K_try: 30  nodeNum: 645820
+   calc_ktry_core_graph : node_delete: 511549  nodeNum: 645820
+   k_try = 30 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.095434s
+   subgraph Edge = 25778010 and Node = 134271 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 100  nodeNum: 134271
+   calc_ktry_core_graph : node_delete: 83205  nodeNum: 134271
+   k_try = 100 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.069282s
+   subgraph Edge = 18320944 and Node = 51066 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 170  nodeNum: 51066
+   calc_ktry_core_graph : node_delete: 29366  nodeNum: 51066
+   k_try = 170 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.043704s
+   subgraph Edge = 12250604 and Node = 21700 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 240  nodeNum: 21700
+   calc_ktry_core_graph : node_delete: 1040  nodeNum: 21700
+   k_try = 240 ,now k_try < max. 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 310  nodeNum: 21700
+   calc_ktry_core_graph : node_delete: 15504  nodeNum: 21700
+   k_try = 310 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.025248s
+   subgraph Edge = 4985580 and Node = 6196 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 380  nodeNum: 6196
+   calc_ktry_core_graph : node_delete: 0  nodeNum: 6196
+   k_try = 380 ,now k_try < max. 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 450  nodeNum: 6196
+   calc_ktry_core_graph : node_delete: 103  nodeNum: 6196
+   k_try = 450 ,now k_try < max. 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 520  nodeNum: 6196
+   calc_ktry_core_graph : node_delete: 4853  nodeNum: 6196
+   k_try = 520 ,now k_try < max. 
+   ******************************************************
+   开始边数筛选
+   data reduce time = : 0.008474s
+   subgraph Edge = 966278 and Node = 1343 
+   ******************************************************
+   calc_ktry_core_graph : K_try: 590  nodeNum: 1343
+   calc_ktry_core_graph : node_delete: 1343  nodeNum: 1343
+   k_try = 590 ,now k_try >= max. 
+   备份half-kcore =260 小图
+   存在偏小图备份，直接使用备份k=100
+   calc_ktry_core_graph : K_try: 260  nodeNum: 51066
+   calc_ktry_core_graph : node_delete: 44869  nodeNum: 51066
+   开始边数筛选
+   data reduce time = : 0.036102s
+   subgraph Edge = 4986102 and Node = 6197 
+   ******************************************************
+   max k_try = 520 ,now k_try < maxSuitKcore. subgraph edge = 966278 nodeNum = 1343. 
+二、 k-core 子图缩减结束，时间 = : 0.519652s
+程序已进行: 42.139261s
+   k: 520  node_delete: 0  nodeNum: 1343  nodeleft: 1343
+   k: 552  node_delete: 62  nodeNum: 1343  nodeleft: 1281
+   k: 552  node_delete: 62  nodeNum: 1343  nodeleft: 1281
+   k: 553  node_delete: 63  nodeNum: 1343  nodeleft: 1280
+   k: 554  node_delete: 65  nodeNum: 1343  nodeleft: 1278
+   k: 555  node_delete: 65  nodeNum: 1343  nodeleft: 1278
+   k: 556  node_delete: 65  nodeNum: 1343  nodeleft: 1278
+   k: 557  node_delete: 67  nodeNum: 1343  nodeleft: 1276
+   k: 558  node_delete: 70  nodeNum: 1343  nodeleft: 1273
+   k: 559  node_delete: 70  nodeNum: 1343  nodeleft: 1273
+   k: 560  node_delete: 71  nodeNum: 1343  nodeleft: 1272
+   k: 561  node_delete: 73  nodeNum: 1343  nodeleft: 1270
+   k: 562  node_delete: 74  nodeNum: 1343  nodeleft: 1269
+   k: 563  node_delete: 75  nodeNum: 1343  nodeleft: 1268
+   k: 564  node_delete: 76  nodeNum: 1343  nodeleft: 1267
+   k: 565  node_delete: 78  nodeNum: 1343  nodeleft: 1265
+   finish over kmax k: 566  node_delete: 1343  nodeNum: 1343 nodeleft: 0
+   开始边数筛选
+   data reduce time = : 0.001796s
+   subgraph Edge = 881860 and Node = 1265 
+   ******************************************************
+三、 计算k-core 结束，时间 = : 0.009937s
+程序已进行: 42.149199s
+k_core_max equals 565 nodeNum_sub = 1265  numEdges_sub = 881860 
+   kcore 上的ktruss区间为 [3, 566]. 
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 284 完成，剩余边数为 791274
+   ■■■
+   检查数 425 完成，剩余边数为 0
+   ■■■
+   检查数 354 完成，剩余边数为 0
+   ■■■■
+   检查数 319 完成，剩余边数为 0
+   ■■■■■■
+   检查数 301 完成，剩余边数为 0
+   ■■■■■■■■
+   检查数 292 完成，剩余边数为 0
+   ■■■■■■■■■■■
+   检查数 288 完成，剩余边数为 0
+   ■■■■■■■■■■■■■■■
+   检查数 286 完成，剩余边数为 0
+   ■■■■■■■■■■■■■■■■■■■■■
+   检查数 285 完成，剩余边数为 0
+四、 计算k-core上的ktruss下界 结束，时间 = : 1.715410s
+程序已进行: 43.864617s
+kmaxcore上的kmaxtruss为 284, 剩余的边数为 395637. 
+   存在偏小图备份，直接使用备份half-core = 260 
+   calc_ktry_core_graph : K_try: 283  nodeNum: 6197
+   calc_ktry_core_graph : node_delete: 1  nodeNum: 6197
+   开始边数筛选
+   data reduce time = : 0.008741s
+   subgraph Edge = 4985580 and Node = 6196 
+   ******************************************************
+五、 从大图获取kmax-1-core子图 结束，时间 = : 0.014534s
+程序已进行: 43.879151s
+   k_core-1 equals 283 nodeNum_final = 6196  numEdges_final = 4985580 
+   k-1-core上的ktruss区间为 [284, 566]. 
+   ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+   检查数 284 完成，剩余边数为 791274
+   ■■■■■■■■■■■■■■■■■■■■■
+   检查数 285 完成，剩余边数为 0
+六、 计算k-1-core上的ktruss结束，时间 =: 1.613404s
+程序已进行: 45.492560s
+   kmax-1-core上的kmaxtruss为 284, 剩余的边数为 395637. 
+kmax = 284, Edges in kmax-truss = 395637.
+七、 计算时间 = [: 3.897085s
+八、 总时间 = : 45.516698s
